@@ -81,7 +81,7 @@ flutter pub get
 flutter run
 ```
 ### 🗄️ Base de données (MySQL)
-CREATE DATABASE classy;
+```bash CREATE DATABASE classy; ```
 
 
 ### 📊 Architecture
@@ -94,5 +94,3 @@ flowchart LR
     API --> Notif[🔔 Notifications]
     API --> Mapbox[🗺️ Recherche par carte]
     Admin[👨‍💼 BackOffice] --> API
-## 📂 Structure du projet  
-
